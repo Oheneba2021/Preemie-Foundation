@@ -1,0 +1,89 @@
+/* @media screen and (max-width: 480px) {
+    #toggleButton {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+    }
+    
+    
+    #toggleButton:hover {
+        opacity: 0.8;
+    }
+} */
+
+@media screen and (max-width: 767px) {
+    .i-links {
+        display: none;
+    }
+
+    #toggleButton {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+    }
+
+
+    #toggleButton:hover {
+        opacity: 0.8;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+
+
+    /* Dropdown Content (Hidden by Default) */
+  
+
+    .show {
+        display: block;
+    }
+
+    .stats,
+    .is-intro,
+    .idonate {
+        display: block;
+    }
+
+    .istat,
+    .mstat,
+    .intro-image,
+    .intro-text {
+        width: 100%;
+        padding: 5%;
+    }
+   .donate-item{
+        width:100%;
+   } 
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+
+    .nav-items.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        z-index: 9999;
+    }
+
+    #toggleButton {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #toggleButton {
+        display: none;
+    }
+}
