@@ -40,6 +40,9 @@
     .show {
         display: block;
     }
+    .progress-bar span{
+        margin-top:-50px;
+    }
 
     .stats,
     .is-intro,
