@@ -3,14 +3,19 @@
 * {
     margin-right: none;
 }
+
 section {
-    width: 100% !important;
+    /* width: 100% !important; */
 }
 
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     /* overflow-x:hidden; */
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .show {
@@ -59,7 +64,7 @@ nav {
 
 .ilink {
     width: 30%;
-    color:white;
+    color: white;
 }
 
 .logo img {
@@ -123,7 +128,7 @@ h6 {
 }
 
 .hero {
-    width: 100vw;
+    /* width: 100vw; */
     background-image: url("../images/defaults/preenature-4.jpg");
     height: 100vh;
     background-size: cover;
@@ -158,7 +163,7 @@ h1 {
     color: gold;
 }
 
-swiper-container {
+/* swiper-container {
     width: 100%;
     height: 100%;
 }
@@ -177,7 +182,7 @@ swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 .hero-text {
     text-align: center;
@@ -251,7 +256,7 @@ swiper-slide img {
     background-image: url("../images/defaults/nicu-baby.jpg");
     /* height: 100vh; */
     background-size: cover;
-    margin-block: 30px;
+    margin-block: 20px;
     color: #4e2e7b;
 }
 
@@ -297,7 +302,7 @@ swiper-slide img {
 }
 
 .mdonate {
-    width: 100vw;
+    /* width: 100vw; */
     /* height: 100vh; */
     /* background-color: beige; */
     margin-block: 10px;
@@ -315,75 +320,198 @@ swiper-slide img {
     /* background-color: red; */
     /* padding: 5%; */
     margin: 10px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.donate-item span{
+
+.donate-item span {
     font-size: small;
-    margin:0px;
+    margin: 0px;
 }
 
 .image-div img,
-.image-div{
-    width:100%
-}
-.image-div{
-    height:200px;
-    overflow:hidden;
-}
-.donate-item p,
-.donate-item h4,
-.donate-item span{
-    margin:1% 5%;
+.image-div {
+    width: 100%
 }
 
-.donate-item h4{
-    font-size:1.5rem;
+.image-div {
+    height: 200px;
+    overflow: hidden;
 }
-.is-donate{
+
+.donate-item p,
+.donate-item h4,
+.donate-item span {
+    margin: 1% 5%;
+}
+
+.donate-item h4 {
+    font-size: 1.5rem;
+}
+
+.is-donate {
     background-color: #4e2e7b;
     float: right;
-    margin-top:-12px;
-    z-index:20;
+    margin-top: -12px;
+    z-index: 20;
     position: relative;
     border-style: none;
     padding: 5px;
     margin-right: 5px;
 }
-.mis-donate{
+
+.mis-donate {
     background-color: gold;
     float: right;
-    margin-top:-12px;
-    z-index:20;
+    margin-top: -12px;
+    z-index: 20;
     position: relative;
     border-style: none;
     padding: 5px;
     margin-right: 5px;
 }
-.mis-donate a{
+
+.mis-donate a {
     color: #4e2e7b;
 }
-.progress-bar{
+
+.progress-bar {
     width: 100%;
-    padding:5px;
+    padding: 5px;
 }
-.progress-bar span{
-    margin-top:-55px;
+
+.progress-bar span {
+    margin-top: -55px;
 }
-.read-more{
+
+.read-more {
     background-color: #fff;
     /* color: gold; */
 }
-.read-more a{
+
+.read-more a {
     /* color:gold; */
-    background-color:#4e2e7b;
-    margin-block:15px;
-    padding:10px 20px;
-    border-radius:10px;
+    background-color: #4e2e7b;
+    margin-block: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
-.mread-more a{
+
+.mread-more a {
+    color: #4e2e7b;
+    background-color: gold;
+    margin-block: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.monthly {
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-image: url('../images/gallery/nicu-setup.jpg');
+    background-size: cover;
+}
+
+.mmonthly {
+    margin: 5%;
+}
+
+.fmonthly {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2%;
+    margin-right: 10%;
+}
+
+.fmonthly h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-block: 15px;
+    color: black;
+
+}
+#fcenter{
+    font-size:0.8rem;
+    text-align:center;
+    margin:0 auto;
+}
+.tmonthly {
+    width: 55%;
+    float: right;
+    color: #fff;
+}
+
+.tmonthly h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.tm {
+    width: 90%;
+    margin: 0 auto;
+    margin-block: 10px;
+    padding: 10px;
+}
+
+.tm-text h2 {
+    margin: 0px;
+}
+
+.tm-text span {
+    text-align: center;
+    margin: auto 0;
+    background-color: gold;
+    color: #4e2e7b;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.payment-options {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fab {
+    margin: 10%;
+    font-size: 2rem;
+}
+
+.bg {
+    background: rgb(255, 215, 0);
+    background: linear-gradient(162deg, rgba(255, 215, 0, 1) 0%, rgba(78, 46, 123, 0.9164040616246498) 63%);
+}
+
+#container {
+    text-align: center;
+    margin-block: 10px;
+    
+}
+.red{
+    border:2px solid red;
+}
+#inputField {
+    width: 80%;
+    padding: 10px;
+    border:none;
+    text-align:center;
+    font-size:1.5rem;
     color:#4e2e7b;
-    background-color:gold;
-    margin-block:15px;
-    padding:10px 20px;
-    border-radius:10px;
+}
+
+.amountButton {
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+    background-color:#4e2e7b;
+    border:none;
+    color:#fff;
+    font-size:1.2rem;
+    margin-block:10px;
+}
+.tm-image{
+    width: 50px;
+    height:50px;
+    background-image: url("../images/gallery/is-ashanti-region.jpg");
+    background-size: cover;
+}
+.tm-image img{
+    width:100%;
 }

@@ -39,3 +39,20 @@ function toggleMenu() {
     var navItems = document.querySelector('.nav-items');
     navItems.classList.toggle('open');
 }
+// input button functionality
+const inputField = document.getElementById("inputField");
+
+// Set the initial value in the input field to one of the buttons' values
+inputField.value = "100";
+
+// Function to set the input field value based on the clicked button
+function setInputValue(value) {
+    inputField.value = value;
+}
+
+// Function to open the input field for custom entry
+function openCustomInput() {
+    inputField.value = ""; // Clear the input field
+    inputField.removeAttribute("readonly"); // Allow user input
+    inputField.focus(); // Focus on the input field
+}
