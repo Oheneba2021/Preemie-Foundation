@@ -48,21 +48,32 @@
     .stats,
     .is-intro,
     .idonate,
-    .mmonthly {
+    .mmonthly,
+    .is-volunteers {
         display: block;
     }
 
     .istat,
     .mstat,
     .intro-image,
-    .intro-text {
+    .intro-text
+    .vol-item {
         padding: 5%;
+        width:100%;
     }
 
     .donate-item,
     .fmonthly,
     .tmonthly {
         width: 100%;
+        margin-block:50px;
+
+    }
+    .monthly{
+        height: 100%;
+    }
+    .tmonthly{
+        margin-block: 50px;
     }
 }
 
@@ -88,7 +99,12 @@
         display: block;
     }
 }
-
+@media screen and (min-width: 500px) and (max-width: 769px) {
+    .monthly{
+        height:260vh;
+    }
+}
+  
 @media only screen and (min-width: 769px) {
     #toggleButton {
         display: none;

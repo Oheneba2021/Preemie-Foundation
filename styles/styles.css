@@ -408,10 +408,11 @@ swiper-slide img {
     /* height: 100vh; */
     background-image: url('../images/gallery/nicu-setup.jpg');
     background-size: cover;
+    padding:5%;
 }
 
 .mmonthly {
-    margin: 5%;
+    /* margin: 5%; */
 }
 
 .fmonthly {
@@ -507,11 +508,73 @@ swiper-slide img {
     margin-block:10px;
 }
 .tm-image{
-    width: 50px;
-    height:50px;
-    background-image: url("../images/gallery/is-ashanti-region.jpg");
+    width: 250px;
+    height:100px;
+    /* background-image: url("../images/gallery/is-ashanti-region.jpg"); */
     background-size: cover;
+    /* border:5px solid salmon; */
+    padding: 5px;
 }
 .tm-image img{
     width:100%;
+    height: 100%;
+}
+.logo-holder{
+    width:150px;
+    height:150px;
+    margin-block:20px;
+}
+.logo-holder img{
+    width: 100%;
+}
+.volunteers{
+    width: 80%;
+    margin:0 auto;
+    margin-block:50px;
+}
+.vol-item{
+    margin:auto 0;
+    border: 2px solid gold;
+    width:30%;
+}
+.vol-head h1{
+    font-size:3.2rem;
+    color:black;
+}
+.is-volunteers{
+    background-image: url("../images/gallery/premature-child.jpg"); 
+    background-size: cover;
+    margin-block:30px;
+    height:80vh;
+    
+}
+.vol-profile{
+    /* width: 30% */
+    border:2px solid red;
+    margin-block:10px;
+    margin:10px;
+}
+.profile-image{
+    width:100px;
+    height:150px;
+}
+.profile-image img{
+    width:100%;
+}
+.profile-text,
+.vol-service{
+    color:#fff;
+}
+.main-vol{
+    height: 100%;
+    /* border:2px solid snow; */
+}
+.main-vol img{
+    height: 100%;
+}
+.m-vol{
+    height:80%;
+}
+.text-center{
+    text-align: center;
 }
