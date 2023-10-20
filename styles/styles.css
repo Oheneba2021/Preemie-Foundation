@@ -578,3 +578,27 @@ swiper-slide img {
 .text-center{
     text-align: center;
 }
+.footer{
+    background-color: gold;
+    padding:5%;
+    color: #4e2e7b;
+    height: 40vh;
+    border: 2px solid red;
+}
+.logo-container,
+.logo-text{
+    margin:auto 0;
+}
+.f-logo img{
+    width:240px;
+}
+.logo-container,
+.foot-links{
+    width: 50%;
+}
+.logo-text h1{
+    color:#4e2e7b;
+}
+.logo-text h5{
+    font-size: 1.8rem;
+}

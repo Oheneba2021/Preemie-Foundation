@@ -56,7 +56,7 @@
     .istat,
     .mstat,
     .intro-image,
-    .intro-text
+    .intro-text,
     .vol-item {
         padding: 5%;
         width:100%;
@@ -74,6 +74,12 @@
     }
     .tmonthly{
         margin-block: 50px;
+    }
+    .is-volunteers{
+        height: 100%;
+    }
+    .volunteers{
+        width:95%;
     }
 }
 
@@ -102,6 +108,26 @@
 @media screen and (min-width: 500px) and (max-width: 769px) {
     .monthly{
         height:260vh;
+    }
+}
+@media screen and (max-width:500px) {
+    
+    .is-volunteers{
+        height: 100%;
+    }
+    .monthly{
+       height:300vh;
+    }
+    .tm,
+    .vol-profile{
+        display:block;
+        border:2px solid #fff;
+    }
+    .volunteers{
+        width:95%;
+    }
+    .vol-head h1{
+        font-size: 2rem;
     }
 }
   
