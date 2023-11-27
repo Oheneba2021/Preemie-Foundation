@@ -130,11 +130,19 @@ h6 {
 .hero {
     /* width: 100vw; */
     background-image: url("../images/defaults/preenature-4.jpg");
+}
+
+.hero,
+.contact-hero {
     height: 100vh;
     background-size: cover;
     --blur: 0;
     filter: blur(0);
     /* Initial blur value */
+}
+
+.contact-hero {
+    background-image: url("../images/gallery/contact-hero.jpg")
 }
 
 
@@ -408,7 +416,7 @@ swiper-slide img {
     /* height: 100vh; */
     background-image: url('../images/gallery/nicu-setup.jpg');
     background-size: cover;
-    padding:5%;
+    padding: 5%;
 }
 
 .mmonthly {
@@ -429,11 +437,13 @@ swiper-slide img {
     color: black;
 
 }
-#fcenter{
-    font-size:0.8rem;
-    text-align:center;
-    margin:0 auto;
+
+#fcenter {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
 }
+
 .tmonthly {
     width: 55%;
     float: right;
@@ -470,7 +480,7 @@ swiper-slide img {
     margin: 0 auto;
 }
 
-.fab {
+deqq zszaxsxs q .fab {
     margin: 10%;
     font-size: 2rem;
 }
@@ -483,122 +493,228 @@ swiper-slide img {
 #container {
     text-align: center;
     margin-block: 10px;
-    
+
 }
-.red{
-    border:2px solid red;
+
+.red {
+    border: 2px solid red;
 }
+
 #inputField {
     width: 80%;
     padding: 10px;
-    border:none;
-    text-align:center;
-    font-size:1.5rem;
-    color:#4e2e7b;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4e2e7b;
 }
 
 .amountButton {
     padding: 5px 10px;
     margin: 5px;
     font-size: 16px;
-    background-color:#4e2e7b;
-    border:none;
-    color:#fff;
-    font-size:1.2rem;
-    margin-block:10px;
+    background-color: #4e2e7b;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-block: 10px;
 }
-.tm-image{
+
+.tm-image {
     width: 250px;
-    height:100px;
+    height: 100px;
     /* background-image: url("../images/gallery/is-ashanti-region.jpg"); */
     background-size: cover;
     /* border:5px solid salmon; */
     padding: 5px;
 }
-.tm-image img{
-    width:100%;
+
+.tm-image img {
+    width: 100%;
     height: 100%;
 }
-.logo-holder{
-    width:150px;
-    height:150px;
-    margin-block:20px;
+
+.logo-holder {
+    width: 150px;
+    height: 150px;
+    margin-block: 20px;
 }
-.logo-holder img{
+
+.logo-holder img {
     width: 100%;
 }
-.volunteers{
+
+.volunteers {
     width: 80%;
-    margin:0 auto;
-    margin-block:50px;
+    margin: 0 auto;
+    margin-block: 50px;
 }
-.vol-item{
-    margin:auto 0;
-    border: 2px solid gold;
-    width:30%;
+
+.vol-item {
+    margin: auto 0;
+    /* border: 2px solid gold; */
+    width: 30%;
 }
-.vol-head h1{
-    font-size:3.2rem;
-    color:black;
+
+.vol-head h1 {
+    font-size: 3.2rem;
+    color: black;
 }
-.is-volunteers{
-    background-image: url("../images/gallery/premature-child.jpg"); 
+
+.is-volunteers {
+    background-image: url("../images/gallery/premature-child.jpg");
     background-size: cover;
-    margin-block:30px;
-    height:80vh;
-    
+    margin-block: 30px;
+    /* height:80vh; */
 }
-.vol-profile{
+
+.vol-profile {
     /* width: 30% */
-    border:2px solid red;
-    margin-block:10px;
-    margin:10px;
+    border: 2px solid #fff;
+    margin-block: 10px;
+    margin: 10px;
+    padding: 5px;
 }
-.profile-image{
-    width:100px;
-    height:150px;
+
+.profile-image,
+.profile-text {
+    width: 50%;
+    margin: 5px;
 }
-.profile-image img{
-    width:100%;
+
+.profile-image img {
+    width: 100%;
 }
+
 .profile-text,
-.vol-service{
-    color:#fff;
+.vol-service {
+    color: #fff;
 }
-.main-vol{
+
+.vol-service {
+    margin: 2%;
+    padding:5px;
+}
+
+.main-vol {
     height: 100%;
     /* border:2px solid snow; */
 }
-.main-vol img{
+
+.main-vol img {
     height: 100%;
 }
-.m-vol{
-    height:80%;
+
+.m-vol {
+    height: 80%;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.footer{
+
+.footer {
     background-color: gold;
-    padding:5%;
+    padding: 5%;
     color: #4e2e7b;
-    height: 40vh;
-    border: 2px solid red;
+    /* height: 40vh; */
+    /* border: 2px solid red; */
 }
+
 .logo-container,
-.logo-text{
-    margin:auto 0;
+.logo-text {
+    margin: auto 0;
 }
-.f-logo img{
-    width:240px;
+
+.f-logo img {
+    width: 240px;
 }
+
 .logo-container,
-.foot-links{
+.foot-links {
     width: 50%;
 }
-.logo-text h1{
+
+.logo-text h1 {
+    color: #4e2e7b;
+}
+
+.logo-text h5 {
+    font-size: 1.8rem;
+}
+
+.health-markers {
+    width: 100vw;
+    margin-block: 50px;
+}
+
+.health-marker-item {
+    width: 25%;
+    margin: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+
+.marker-image {
+    height: 200px;
+}
+
+.marker-image img {
+    height: 100%;
+}
+
+.marker-text {
+    padding: 10px;
+}
+
+.marker-text p {
+    font-size: 0.7rem;
+}
+
+.location,
+.open-hours {
+    height: 50%;
+}
+
+.location {
+    background-color: gold;
+    color: #444444;
+}
+
+.location a {
+    color: #444444;
+}
+
+.open-hours {
+    background-color: #444444;
+    margin-top: 20px;
+    color: gold;
+}
+
+.schedule-info-item {
+    width: 29%;
+    height: 450px;
+    text-align: center;
+}
+
+.schedule-info {
+    height: 80vh;
+    margin: 5%;
+}
+
+.kmc {
+    background-image: url("../images/gallery/kangaroo-m-care.jpg");
+    background-size: cover;
+}
+.flogo-holder{
+    width:130px;
+    height:130px;
+}
+.flogo-holder img{
+    width:100%;
+}
+.foot-links ul li a{
     color:#4e2e7b;
 }
-.logo-text h5{
-    font-size: 1.8rem;
+.span-one{
+    color:gold;
 }

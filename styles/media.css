@@ -49,37 +49,46 @@
     .is-intro,
     .idonate,
     .mmonthly,
-    .is-volunteers {
+    .is-volunteers,
+    .footer .is-health-marker {
         display: block;
     }
 
     .istat,
     .mstat,
     .intro-image,
-    .intro-text,
-    .vol-item {
+    .intro-text {
         padding: 5%;
-        width:100%;
+        width: 95%;
     }
 
     .donate-item,
     .fmonthly,
     .tmonthly {
         width: 100%;
-        margin-block:50px;
+        margin-block: 50px;
 
     }
-    .monthly{
+
+    .monthly {
         height: 100%;
     }
-    .tmonthly{
+
+    .tmonthly {
         margin-block: 50px;
     }
-    .is-volunteers{
+
+    .is-volunteers {
         height: 100%;
     }
-    .volunteers{
-        width:95%;
+
+    .volunteers {
+        width: 95%;
+    }
+
+    .vol-item {
+        padding: 0;
+        width: 95%;
     }
 }
 
@@ -105,32 +114,38 @@
         display: block;
     }
 }
+
 @media screen and (min-width: 500px) and (max-width: 769px) {
-    .monthly{
-        height:260vh;
+    .monthly {
+        height: 260vh;
     }
 }
+
 @media screen and (max-width:500px) {
-    
-    .is-volunteers{
+
+    .is-volunteers {
         height: 100%;
     }
-    .monthly{
-       height:300vh;
+
+    .monthly {
+        height: 300vh;
     }
+
     .tm,
-    .vol-profile{
-        display:block;
-        border:2px solid #fff;
+    .vol-profile {
+        display: block;
+        border: 2px solid #fff;
     }
-    .volunteers{
-        width:95%;
+
+    .volunteers {
+        width: 95%;
     }
-    .vol-head h1{
+
+    .vol-head h1 {
         font-size: 2rem;
     }
 }
-  
+
 @media only screen and (min-width: 769px) {
     #toggleButton {
         display: none;
