@@ -14,6 +14,9 @@
 } */
 
 @media screen and (max-width: 767px) {
+    *{
+        text-align:center
+    }
     .i-links {
         display: none;
     }
@@ -50,7 +53,9 @@
     .idonate,
     .mmonthly,
     .is-volunteers,
-    .footer .is-health-marker {
+    .footer,
+    .is-health-marker,
+    .logo-container {
         display: block;
     }
 
@@ -64,7 +69,8 @@
 
     .donate-item,
     .fmonthly,
-    .tmonthly {
+    .tmonthly,
+    .logo-container {
         width: 100%;
         margin-block: 50px;
 
@@ -82,7 +88,9 @@
         height: 100%;
     }
 
-    .volunteers {
+    .volunteers,
+    .foot-links,
+    .is-profile {
         width: 95%;
     }
 
@@ -90,9 +98,19 @@
         padding: 0;
         width: 95%;
     }
+    .f-logo img{
+        width: 150px;
+    }
+    .is-profile{
+        margin:0 auto;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
+    *{
+        text-align: center;
+    }
     .nav-items {
         display: none;
     }
@@ -116,12 +134,18 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 769px) {
+    *{
+        text-align: center;
+    }
     .monthly {
         height: 260vh;
     }
 }
 
 @media screen and (max-width:500px) {
+    *{
+        text-align: center;
+    }
 
     .is-volunteers {
         height: 100%;

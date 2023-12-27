@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap');
 
 * {
-    margin-right: none;
+    box-sizing: border-box;
 }
 
-section {
-    /* width: 100% !important; */
-}
+
 
 body {
-    margin: 0px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     /* overflow-x:hidden; */
 }
@@ -593,7 +593,7 @@ deqq zszaxsxs q .fab {
 
 .vol-service {
     margin: 2%;
-    padding:5px;
+    padding: 5px;
 }
 
 .main-vol {
@@ -614,9 +614,9 @@ deqq zszaxsxs q .fab {
 }
 
 .footer {
-    background-color: gold;
+    background-color: #1e1e1e;
     padding: 5%;
-    color: #4e2e7b;
+    color: gold;
     /* height: 40vh; */
     /* border: 2px solid red; */
 }
@@ -636,7 +636,7 @@ deqq zszaxsxs q .fab {
 }
 
 .logo-text h1 {
-    color: #4e2e7b;
+    color: gold;
 }
 
 .logo-text h5 {
@@ -646,6 +646,12 @@ deqq zszaxsxs q .fab {
 .health-markers {
     width: 100vw;
     margin-block: 50px;
+    /* border:2px solid red; */
+}
+
+.health-container {
+    width: 85%;
+    /* border: 2px solid darkblue; */
 }
 
 .health-marker-item {
@@ -655,7 +661,7 @@ deqq zszaxsxs q .fab {
 }
 
 .marker-image {
-    height: 200px;
+    height: 100px;
 }
 
 .marker-image img {
@@ -705,16 +711,45 @@ deqq zszaxsxs q .fab {
     background-image: url("../images/gallery/kangaroo-m-care.jpg");
     background-size: cover;
 }
-.flogo-holder{
-    width:130px;
-    height:130px;
+
+.flogo-holder {
+    width: 130px;
+    height: 130px;
 }
-.flogo-holder img{
-    width:100%;
+
+.flogo-holder img {
+    width: 100%;
 }
-.foot-links ul li a{
-    color:#4e2e7b;
+
+.foot-links ul li {
+    width: 150px !important;
+    margin-block: 10px;
+    /* border:2px solid gold; */
 }
-.span-one{
-    color:gold;
+
+.foot-links ul {
+    /* border:2px solid white; */
+    padding: 0px;
+
+}
+
+.foot-links ul li a {
+    color: #fff;
+}
+
+.span-one {
+    color: gold;
+}
+
+.meet-team {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/gallery/nicu-setup.jpg");
+    background-size: cover;
+}
+.is-team,
+.contact-team{
+    width:45%;
+    height:80%;
+    border:2px solid gold;
 }
